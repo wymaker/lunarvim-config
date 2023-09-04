@@ -1,0 +1,21 @@
+{
+  "Competitive Programming CPP lang template": {
+    "prefix": "cptemp",
+    "body": [
+      "/**",
+      "*\tauthor: puror.",
+      "*\tcreated: ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR} - ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "**/",
+      "#include <bits/stdc++.h>",
+      "",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "\tios_base::sync_with_stdio(false); cin.tie(0);",
+      "\t${0}",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "Competitive Programming CPP lang template"
+  }
+}

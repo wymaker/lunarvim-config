@@ -1,0 +1,11 @@
+{
+  "Competitive Programming CPP lang Freopen File": {
+    "prefix": "cpfreopen",
+    "body": [
+      "#define taskname \"${0}\"",
+      "freopen (taskname\".inp\", \"r\", stdin);",
+      "freopen (taskname\".out\", \"w\", stdout);"
+    ],
+    "description": "Competitive Programming CPP lang Freopen File"
+  }
+}

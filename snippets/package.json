@@ -1,0 +1,23 @@
+{
+  "name": "nvim-snippets",
+  "author": "authorname",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./cpp/cp-template.json"
+      },
+      {
+        "language": "cpp",
+        "path": "./cpp/cp-freopen.json"
+      },
+      {
+        "language": "cpp",
+        "path": "./cpp/cp-multitest.json"
+      }
+    ]
+  }
+}

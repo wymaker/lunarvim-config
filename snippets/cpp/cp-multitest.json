@@ -1,0 +1,12 @@
+{
+  "Competitive Programming CPP lang Multi Testcases": {
+    "prefix": "cpmultitest",
+    "body": [
+      "int TEST; cin >> TEST;",
+      "while (TEST--) {",
+      "\t${0}",
+      "}"
+    ],
+    "description": "Competitive Programming CPP lang Multi Testcases"
+  }
+}
