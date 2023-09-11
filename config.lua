@@ -7,7 +7,11 @@ lvim.plugins = {
   {
     'xeluxee/competitest.nvim',
     dependencies = 'MunifTanjim/nui.nvim',
-    config = function() require('competitest').setup() end,
+    config = function() require('competitest').setup({
+      testcases_single_file_format = "$(FNOEXT).testcases",
+      testcases_input_file_format = "in$(TCNUM).txt",
+      testcases_output_file_format = "ans$(TCNUM).txt",
+    }) end,
   },
   {
     "CRAG666/code_runner.nvim", config = true
@@ -30,6 +34,9 @@ lvim.keys.normal_mode["<c-d>"] = ":%d+<cr>"
 -- split view
 lvim.keys.normal_mode["\\"] = ":split<cr>"
 lvim.keys.normal_mode["|"] = ":vsplit<cr>"
+
+-- close buffer
+lvim.keys.normal_mode["<c-x>"] = ":BufferKill<cr>"
 
 -- [competitest] plugin
 lvim.keys.normal_mode["<F5>"] = ":CompetiTest add_testcase<cr>"
